@@ -28,4 +28,6 @@ def is_x_turn?(board)
 end
 
 def is_o_turn?(board)
+  return true if current_player(board) == 'O'
+  false
 end

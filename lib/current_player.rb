@@ -4,8 +4,6 @@ def turn_count(board)
 
   board.each { |item| move_counter += 1 unless item == ' ' }
 
-  end
-
   move_counter
 end
 

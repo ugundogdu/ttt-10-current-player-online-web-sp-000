@@ -16,7 +16,8 @@ def current_player(board)
   # 1-3-5-7 O
   # 0-2-4-6-8 X
   tcb = turn_count(board)
+  
   if tcb == 1 || tcb == 3 || tcb == 5 || tcb == 7 || tcb == 9
-    
+
   end
 end

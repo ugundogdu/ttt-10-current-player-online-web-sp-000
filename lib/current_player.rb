@@ -6,4 +6,6 @@ def turn_count(board)
       move_counter += 1
     end
   end
+
+  move_counter
 end

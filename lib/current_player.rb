@@ -18,6 +18,6 @@ def current_player(board)
   tcb = turn_count(board)
 
   if tcb == 1 || tcb == 3 || tcb == 5 || tcb == 7
-
+    return 'O'
   end
 end

@@ -19,5 +19,7 @@ def current_player(board)
 
   if tcb == 1 || tcb == 3 || tcb == 5 || tcb == 7
     return 'O'
+  else
+    return 'X'
   end
 end

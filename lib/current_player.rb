@@ -4,8 +4,9 @@ def turn_count(board)
   board.each do |item|
     move_counter = 0
     if 'X' || 'O'
-      move_counter += 1 
+      move_counter += 1
     end
   end
 
+  move_counter
 end

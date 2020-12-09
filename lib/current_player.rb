@@ -23,4 +23,5 @@ def current_player(board)
 end
 
 def is_x_turn?(board)
+  
 end

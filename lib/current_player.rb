@@ -3,7 +3,8 @@ def turn_count(board)
 
   board.each do |item|
     move_counter = 0
-    puts move_counter
+    puts 'X' || 'O'
+    move_counter += 1 
   end
 
 end

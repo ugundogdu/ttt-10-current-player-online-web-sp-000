@@ -21,13 +21,3 @@ def current_player(board)
     return 'O'
   end
 end
-
-def is_x_turn?(board)
-  return true if current_player(board) == 'X'
-  false
-end
-
-def is_o_turn?(board)
-  return true if current_player(board) == 'O'
-  false
-end
